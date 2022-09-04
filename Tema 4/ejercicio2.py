@@ -1,6 +1,3 @@
-from typing import final
-
-
 initialNUmber = int(input('Ingresa un número por favor: '))
 finalNumber = int(input('Ingresa un número mas alto que el anterior: '))
 
