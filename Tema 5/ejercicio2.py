@@ -9,6 +9,8 @@ def es_primo(numero):
             continue
         if numero % i == 0:
             contador += 1
+        if contador >= 2:
+            break
 
     if contador == 0:
         print(f'El {numero} es primo!!!')
