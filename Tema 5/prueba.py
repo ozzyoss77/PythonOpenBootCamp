@@ -1,5 +1,5 @@
 # Cálculo para saber si un número es primo o no
-
+numeros = []
 
 def es_primo(numero):
     contador = 0
@@ -15,7 +15,12 @@ def es_primo(numero):
     if contador == 0:
         print(f'El {numero} es primo!!!')
     else:
-        print(f'El {numero} NO es primo!!!')
+        print('no')
 
 
-es_primo(numero=int(input('Dime un numero (entero): ')))
+def prueba():
+    for i in range(1, 100000):
+        es_primo(i)
+
+
+prueba()
